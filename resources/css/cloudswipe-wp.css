@@ -1,0 +1,42 @@
+.cs_error {
+  color: red;
+}
+
+#cs_cart_widget_wrapper #cs_cart_widget_list {
+  list-style-type: none;
+}
+
+#cs_cart_widget_wrapper #cs_cart_widget_list_item {
+  list-style-image: none;
+}
+
+.cloudswipe .cloudswipe-form .ajax_button_notice {
+  margin-top: 20px;
+  display: block;
+  padding-right: 10px !important;
+}
+
+.cloudswipe .cloudswipe-form .ajax_view_cart_button {
+  margin-top: -3px;
+}
+
+.cs_close_message {
+  display: none;
+}
+
+#content .cloudswipe .cloudswipe-form .alert-error ul,
+.cloudswipe .cloudswipe-form .alert-error ul {
+  margin-left: 14px;
+}
+
+.cloudswipe .cloudswipe-form .alert-error ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-family: arial;
+  font-size: 12px;
+}
+
+.cloudswipe .cloudswipe-form .ajax_add_to_cart_message .alert .cs_ajax_message {
+  font-family: arial;
+  font-size: 12px;
+}

@@ -1,0 +1,9 @@
+<?php wp_nonce_field('cs_save_product_id', 'cs_nonce'); ?>
+
+<select name="cs_product_id">
+  <option value="0">Select Product</option>
+  <?php foreach($products as $product): ?>
+    <?php CS_Log::write('[' . basename(__FILE__) . ' - line ' . __LINE__ . "] $product->id :: $cs_product_id"); ?>
+    <option value="<?php echo $product->id; ?>" <?php echo ($product->id == $cs_product_id) ? 'selected="selected"' : ''?>><?php echo $product->name; ?></option>
+  <?php endforeach;?>
+</select>
